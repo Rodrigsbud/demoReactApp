@@ -1,5 +1,6 @@
 {
   "name": "myfirstreactapp",
+  "homepage": "http://Rodrigo.github.io/demoReactApp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
