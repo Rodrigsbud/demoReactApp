@@ -1,17 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import NavigationBar from './componentes/NavigationBar';
+import React from 'react';
+import Navbar from './componentes/NavigationBar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import './App.css';
 
 
 function App() {
   return (
     <>
     <Router>
-    <NavigationBar/>
-    <Switch>
-      <Route path='/' exact />
-    </Switch>
+    <Navbar />
     </Router>
     </>
   );
