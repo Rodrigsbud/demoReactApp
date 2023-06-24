@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/demoReactApp/static/css/main.073c9b0a.css",
-    "main.js": "/demoReactApp/static/js/main.bb4d25dd.js",
+    "main.css": "/demoReactApp/static/css/main.7ff0aa9d.css",
+    "main.js": "/demoReactApp/static/js/main.be7805e0.js",
     "static/js/787.626a797b.chunk.js": "/demoReactApp/static/js/787.626a797b.chunk.js",
-    "static/media/logo.svg": "/demoReactApp/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/web.mp4": "/demoReactApp/static/media/web.c3129a0b1af009209a23.mp4",
+    "static/media/imagen6.jpg": "/demoReactApp/static/media/imagen6.d35d03820973d3a559e5.jpg",
+    "static/media/imagen5.jpg": "/demoReactApp/static/media/imagen5.08923822f3d756ec15ea.jpg",
+    "static/media/imagen3.jpg": "/demoReactApp/static/media/imagen3.0d12ea67bfcf9e4d7199.jpg",
+    "static/media/imagen4.jpg": "/demoReactApp/static/media/imagen4.76e2ca8b207132565184.jpg",
+    "static/media/imagen2.jpeg": "/demoReactApp/static/media/imagen2.ddb4fab9793917a73054.jpeg",
+    "static/media/signup.jpeg": "/demoReactApp/static/media/signup.ff9c26cda66b048d7c69.jpeg",
+    "static/media/aboutme.jpeg": "/demoReactApp/static/media/aboutme.6172d2ceab4f0e9569ff.jpeg",
+    "static/media/fondo.jpg": "/demoReactApp/static/media/fondo.58d9181078cd8b9cd288.jpg",
     "index.html": "/demoReactApp/index.html",
-    "main.073c9b0a.css.map": "/demoReactApp/static/css/main.073c9b0a.css.map",
-    "main.bb4d25dd.js.map": "/demoReactApp/static/js/main.bb4d25dd.js.map",
+    "main.7ff0aa9d.css.map": "/demoReactApp/static/css/main.7ff0aa9d.css.map",
+    "main.be7805e0.js.map": "/demoReactApp/static/js/main.be7805e0.js.map",
     "787.626a797b.chunk.js.map": "/demoReactApp/static/js/787.626a797b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.bb4d25dd.js"
+    "static/css/main.7ff0aa9d.css",
+    "static/js/main.be7805e0.js"
   ]
 }
