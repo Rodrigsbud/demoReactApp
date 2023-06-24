@@ -1,7 +1,8 @@
 import React,{useEffect, useState} from 'react';
+import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './NavigationBar.css';
-import { Button } from './Button';
+
 
 function NavigationBar() {
     const [click, setClick]= useState(false);
@@ -26,43 +27,41 @@ function NavigationBar() {
 
   return (
     <>
-    <nav className="navbar">
+    <nav className='navbar'>
         <div className='navbar-container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            Gaming <i className='fab fa-typo3' />
+                Rodrigsbud 
+                <i className="fa fa-hurricane" />
             </Link>
             <div className='menu-icon'onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li className='nav-item'>
-                    <Link to='/home' 
-                    className='nav-links' 
-                    onClick={closeMobileMenu}
-                    >
-                        HOME
+                    <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                        Home
                     </Link>
                 </li>
                 <li className='nav-item'>
                     <Link to='/services' 
-                    className='nav-links' 
-                    onClick={closeMobileMenu}
+                        className='nav-links' 
+                        onClick={closeMobileMenu}
                     >
-                        SERVICES
+                        Services
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/products' 
-                    className='nav-links' 
-                    onClick={closeMobileMenu}
+                    <Link to='/about' 
+                        className='nav-links' 
+                        onClick={closeMobileMenu}
                     >
-                        PRODUCTS
+                        About
                     </Link>
                 </li>
                 <li className='nav-item'>
                     <Link to='/sing-up' 
-                    className='nav-links-mobile' 
-                    onClick={closeMobileMenu}
+                        className='nav-links-mobile' 
+                        onClick={closeMobileMenu}
                     >
                         SIGN UP
                     </Link>
@@ -76,7 +75,7 @@ function NavigationBar() {
     </nav>
     
     </>
-  )
+  );
 }
 
-export default NavigationBar
+export default NavigationBar;
